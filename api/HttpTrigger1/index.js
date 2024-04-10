@@ -5,7 +5,7 @@ module.exports = async function (context, req) {
 
     try {
         const parsedUrl = new URL(req.url);
-        const url = new URL(`https://comp7270-linquan.azurewebsites.net${parsedUrl.pathname}${parsedUrl.search}`);
+        const url = new URL(`https://webapptest5555.azurewebsites.net${parsedUrl.pathname}${parsedUrl.search}`);
 
         const options = {
             method: req.method,
